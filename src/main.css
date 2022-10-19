@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f3f3f3;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.flexbox .board {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+}
+.flexbox .board .card {
+  padding: 15px 25px;
+  width: 100%!important;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
