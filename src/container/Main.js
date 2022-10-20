@@ -14,13 +14,9 @@ function Main() {
     const addItemInNotStarted = () => {
         setCount(count + 1);
         items1.push(
-            <>
                 <Card id={"card-" + count} name={"Card " + count} className="card text-black" draggable="true">
-                    <div className='flex justify-between'>
                         <p>Card {count}</p>
-                    </div>
                 </Card>
-            </>
         );
         setItems1({ items1: [...items1] });
         console.log(items1)
